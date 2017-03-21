@@ -1,0 +1,174 @@
+#topo{
+	
+   	margin-right: 0%;
+   	margin-left: 0%;
+   	margin-bottom: 1%;
+   	font: bold 40%/30% monospace;
+}
+
+#menuTopo{   
+   	margin-bottom: auto;
+   	margin-left: auto;
+   	margin-top: auto;
+	
+}
+
+#topo ul {
+    list-style:none;
+	
+}
+
+#perfil {
+	margin-right:6.6%;
+}
+
+#chat {
+	margin-right:6.6%;
+}
+
+#biblioteca {
+	margin-right:6.6%;
+}
+
+#ideias {
+	margin-right:6.6%;
+}
+
+#notification {
+	margin-right:6.6%;
+}
+
+#settings {
+	margin-right:6.6%;
+}
+
+#criar {
+	margin-right:6.5%;
+}
+
+#lupa {
+	margin-right:6.5%;
+}
+
+
+#topo ul li {
+   	display: inline;
+}
+
+#topo ul li a {
+   	padding: 4px 12px;
+   	display: inline-block;
+   	text-decoration: none;
+   	color:
+;
+   
+    /* Esmaecer */
+   transition: background-color 2s , color 2s , border-bottom 2s;
+    	transition-timing-function: ease-out;
+   
+    /* Arredondar */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#topo ul li a:hover {
+    background-color: #b2dcff;
+    color: black;
+    
+}
+
+
+.menu:link {
+    font: Impact;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu:visited{
+    font: Impact;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu:hover{
+    font: Impact;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+    	background-color: #63B8FF;
+}
+
+div {
+	width: 98%;
+	padding: 2em 3px 2em;
+	background: white;
+	height: 100%;
+	margin-bottom: 0%;
+	margin-top: 0%; 
+	-webkit-border-radius: 5px;
+    	-moz-border-radius: 5px;
+   	border-radius: 5px;
+
+}
+
+#caixas {
+    width: 98%;
+	padding: 2em 3px 2em;
+    height: 600px;
+	margin: 0 auto;
+	background: white;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	margin-right: 2%;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.msg {
+	background-color: white;
+	color: black;
+	font: Impact;
+	font-size: 20px;
+	margin-left: 19%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+table {
+	margin-left: 27.8%;
+	
+}
+
+.letra {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 30%;
+	font-size: 30px;
+
+}
+
+#spoti {
+	border-radius: 17%;
+	margin-top: 2%
+}
+
+#tum {
+	border-radius: 17%;
+	margin-top: 2%;
+}
+
+#exit {
+	margin-top: 1%;
+	margin-left: 46%;
+}
+

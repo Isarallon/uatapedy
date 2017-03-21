@@ -1,0 +1,278 @@
+#topo{
+	
+    	margin-right: 0%;
+    	margin-left: 0%;
+    	margin-bottom: 1%;
+    	font: bold 40%/30% monospace;
+}
+
+#menuTopo{   
+    	margin-bottom: auto;
+    	margin-left: auto;
+    	margin-top: auto;
+	
+}
+
+#topo ul {
+    	list-style:none;
+	
+}
+
+#perfil {
+	margin-right:6.6%;
+	
+}
+
+#chat {
+	margin-right:6.6%;
+	
+}
+
+#biblioteca {
+	margin-right:6.6%;
+	
+}
+
+#ideias {
+	margin-right:6.6%;
+	
+}
+
+#notification {
+	margin-right:6.6%;
+	
+}
+
+#settings {
+	margin-right:6.6%;
+	
+}
+
+#criar {
+	margin-right:6.5%;
+	
+}
+
+#lupa {
+	margin-right:6.5%;
+	
+}
+
+
+#topo ul li {
+    display: inline;
+	
+}
+
+#topo ul li a {
+    	padding: 4px 12px;
+    	display: inline-block;
+    	text-decoration: none;
+    	color:black;
+   
+    /* Esmaecer */
+    	transition: background-color 2s , color 2s , border-bottom 2s;
+    	transition-timing-function: ease-out;
+   
+    /* Arredondar */
+    	-webkit-border-radius: 5px;
+    	-moz-border-radius: 5px;
+    	border-radius: 5px;
+		
+}
+
+#topo ul li a:hover {
+    	background-color: #b2dcff;
+    	color: black;
+		    
+}
+
+
+.menu:link {
+    	font: Impact;
+    	color: #000000;
+    	text-decoration: none;
+    	font-size: 20px;
+}
+
+.menu:visited{
+    	font: Impact;
+    	color: #000000;
+    	text-decoration: none;
+    	font-size: 20px;
+}
+
+.menu:hover{
+    	font: Impact;
+    	color: #000000;
+    	text-decoration: none;
+    	font-size: 20px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+    background-color: #63B8FF;	
+	
+}
+div {
+	width: 98%;
+	padding: 2em 3px 2em;
+	background: white;
+	height: 100%;
+	margin-bottom: 0%;
+	margin-top: 0%; 
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+   	border-radius: 5px;
+	
+}
+
+<!--
+
+#C1FFC1 s s
+
+
+#63B8FF s s s <!--(agradou o olho)-->
+#3A5FCD s s 
+#4682B4 s s s 
+#FA8072 s s
+#CD5C5C s s
+#6A5ACD s s
+#B22222 s s -->
+
+
+#AB82FF s n
+#C6E2FF n s
+#54FF9F s n
+#7FFFD4 n s
+#BBFFFF n ?
+#836FFF n s
+#ADD8E6 n s
+#7B68EE s n
+
+#caixas {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background:#000;
+
+}
+
+.img1 {
+    width: 25em;
+    height: 25em;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 0em;
+    padding-bottom: 1.5em;
+	border-radius: 17%;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}
+
+.img2 {
+    width: 25em;
+    height: 25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0em;
+    padding-bottom: 1.5em;
+	border-radius: 17%;
+	cursor: pointer;
+	transition: 0.3s;
+	
+	
+}
+
+.img3 {
+    width: 25em;
+    height: 25em;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 0em;
+    padding-bottom: 1.5em;
+	border-radius: 17%;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}
+
+.img4 {
+    width: 25em;
+    height: 25em;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 0em;
+    padding-bottom: 2.5em;
+	border-radius: 17%;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}
+
+.img5 {
+    width: 25em;
+    height: 25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0em;
+    padding-bottom: 2.5em;
+	border-radius: 17%;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}
+
+.img6 {
+    width: 25em;
+    height: 25em;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 0em;
+    padding-bottom: 2.5em;
+	border-radius: 17%;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}
+
+.img1:hover {opacity: 0.7;}
+.img2:hover {opacity: 0.7;}
+.img3:hover {opacity: 0.7;}
+.img4:hover {opacity: 0.7;}
+.img5:hover {opacity: 0.7;}
+.img6:hover {opacity: 0.7;}
+
+h1 {
+	text-align: center;
+	color: white;
+	font: impact;
+	font-size: 50px;
+
+}
+
+#face {
+	border-radius: 17%;
+	margin-top: 2%
+}
+
+#spoti {
+	border-radius: 17%;
+	margin-top: 2%
+}
+
+#tw {
+	border-radius: 17%;
+	margin-top: 2%;
+}
+
+#tum {
+	border-radius: 17%;
+	margin-top: 2%;
+}
+
+#exit {
+	margin-left: 35%;
+}
