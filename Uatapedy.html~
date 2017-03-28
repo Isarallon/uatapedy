@@ -43,6 +43,6 @@
 		<a href="http://spotify.com/"><img src="spotify.svg" width="30em" height="30em" id="spoti"/></a>
 		<a href="http://twitter.com/"><img src="twitter.svg" width="30em" height="30em" id="tw"/></a>
 		<a href="http://tumblr.com/"><img src="tumblr.svg" width="30em" height="30em" id="tum"/></a>
-		<a href="file:///home/aluno/uatapedy/paginahome.html"/><img src="exit.png" width="30em" height="30em" id="exit"/></a>
+		<a href="file:///home/aluno/jullyana/sistema/paginahome.html"/><img src="exit.png" width="30em" height="30em" id="exit"/></a>
 	</body>
 </html>

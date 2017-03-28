@@ -145,8 +145,7 @@ p {
 #caixas img {
 	border-radius: 100%;
 	margin-top: 0.50%;
-	margin-left: 463px;
-	
+	margin-left: 457px;
 	
 }
 

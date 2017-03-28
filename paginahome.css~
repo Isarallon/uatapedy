@@ -150,7 +150,7 @@ p.especial{
 	display: inline-block;
 	color: white;
 	text-decoration: none;
-    background-color: #708090;
+    background-color: #63B8FF;
 }
 
 #nome1 {

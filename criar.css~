@@ -81,21 +81,21 @@
 
 
 .menu:link {
-    font-family: 'Raleway', sans-serif;
+    font: Impact;
     color: #000000;
     text-decoration: none;
     font-size: 20px;
 }
 
 .menu:visited{
-    font-family: 'Raleway', sans-serif;
+    font: Impact;
     color: #000000;
     text-decoration: none;
     font-size: 20px;
 }
 
 .menu:hover{
-    font-family: 'Raleway', sans-serif;
+    font: Impact;
     color: #000000;
     text-decoration: none;
     font-size: 20px;
@@ -104,7 +104,7 @@
 body {
 	width: 100%;
 	height: 100%;
-    background-color: #63B8FF;
+    	background-color: #63B8FF;
 }
 
 div {
@@ -138,6 +138,7 @@ div {
 .msg {
 	background-color: white;
 	color: black;
+	font: Impact;
 	font-size: 20px;
 	margin-left: 19%;
     font-family: 'Raleway', sans-serif;
@@ -170,3 +171,4 @@ table {
 	margin-top: 1%;
 	margin-left: 46%;
 }
+

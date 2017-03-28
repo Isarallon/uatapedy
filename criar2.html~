@@ -29,7 +29,7 @@
       	</section>
 		</div>
 		<div id="caixas">
-			<form action="file:///home/aluno/uatapedy/Uatapedy.html" method="post">
+			<form action="file:///home/aluno/uatapedy/uatapedy.html" method="post">
 				<table>
  					<tr>
    						<td style="font-family: 'Raleway', sans-serif;">Título do capítulo:</td>

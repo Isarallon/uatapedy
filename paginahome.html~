@@ -16,7 +16,7 @@
 			<p>Duchy</p>
 			<p class="especial">Crie historias e compartilhe-as com o mundo, liberte sua <span style="color: #FF1493">criatividade</span>!</p>		 
 			<div class="login">
-				<img src="perfil.png" width="75em" height="75em" id="imgperfil"/>				
+				<img src="perfil.jpg" width="75em" height="75em" id="imgperfil"/>				
 				<form action="Script_do_Formulario.php" method="post">
 				<table id="login4">					
 					<tr>

@@ -138,6 +138,7 @@ div {
 .msg {
 	background-color: white;
 	color: black;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	margin-left: 19%;
     font-family: 'Raleway', sans-serif;
