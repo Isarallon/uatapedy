@@ -3,46 +3,112 @@
 	<head>
 		<title>Duchy</title>
 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-		<link rel="stylesheet" type="text/css" href="maquiagem.css">
-
+		
+		<meta name="description" content="Aprenda a criar um site completo que usa formulários em HTML">
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="paginahome.css">
+		
 	</head>
 	<body>
 		
-		<div id="topo">
-			          
-			<ul id="menuTopo">
-           		
-                <li><a href="file:///home/aluno/uatapedy/perfil.html" id="perfil" class="menu"><img src="perfil.png" height="50em" width="50em" /> </a></li>
-                <li><a href="#" id="chat" class="menu"><img src="chat.svg"height="50em" width="50em"/></a></li>
-				<li><a href="file:///home/aluno/uatapedy/Uatapedy.html" id="biblioteca" class="menu"><img src="home.svg"height="50em" width="50em"/></a></li>
-                <li><a href="#" id="ideias" class="menu"><img src="biblioteca.svg"height="50em" width="50em"/></a></li>
-                <li><a href="#" id="notification" class="menu"><img src="notification.svg"height="50em" width="50em"/></a></li>
-                <li><a href="#" id="settings" class="menu"><img src="settings.svg"height="50em" width="50em"/></a></li>
-				<li><a href="file:///home/aluno/uatapedy/criar.html" id="criar" class="menu"><img src="more.svg"height="50em" width="50em"/></a></li>
-				<li><a href="#" id="lupa" class="menu"><img src="lupa.svg"height="50em" width="50em"/></a></li>
-				
-            </ul>
-				
-             
-            </article>
-        	</section>
-    	</div>
+		<div id="caixas">
+			<p>Duchy</p>
+			<p class="especial">Crie historias e compartilhe-as com o mundo, liberte sua <span style="color: #FF1493">criatividade</span>!</p>		 
+			<div class="login">
+				<img src="perfil.png" width="75em" height="75em" id="imgperfil"/>				
+				<form action="login.php" method="post">
+				<table id="login4">					
+					<tr>
+   						<td>
+    						<label for="login" style="font-family: 'Raleway', sans-serif;">E-mail: </label>
+   						</td>
+   						<td align="left">
+    						<input type="text" id="email" name="email">
+   						</td>
+  					</tr>
+  					<tr>
+   						<td>
+    						<label for="pass" style="font-family: 'Raleway', sans-serif;">Senha: </label>
+   						</td>
+   						<td align="left">
+    						<input type="password" id="senha" name="senha">
+   						</td>
+  					</tr>
+				</table>
+					<ul>
+						<li>				
+							<input type="submit" name="Login" class="btn bigger">
+							<a href="file:///home/aluno/uatapedy/Uatapedy.html" class="btn bigger"style="font-family: 'Raleway', sans-serif;" >Login</a>	
+						</li>
+					</ul>
+				</form>
+			</div>
 
-    	<div id="caixas">
+			<div class="cadastro">
+			<form action="cadastro.php" method="post">
+		<table align="center">		
+			<tr>
+   				<td>
+    				<label for="nome" style="font-family: 'Raleway', sans-serif;">Nome: </label>
+   				</td>
+   				<td align="center">
+    				<input type="text" id="nomec" name="nomec">
+   				</td>
+				<tr>
+   					<td>
+    					<label for="email" style="font-family: 'Raleway', sans-serif;">E-mail: </label>
+   					</td>
+   					<td align="left">
+    					<input type="text" id="emailc" name="emailc">
+   					</td>
+  				</tr>
+  				<tr>
+   					<td>
+    					<label for="imagem" style="font-family: 'Raleway', sans-serif;">Imagem de perfil:</label>
+   					</td>
+   					<td>
+    					<input type="file" name="imagem" >
+
+	   				</td>
+				</tr>	
+				<tr>
+   					<td>
+    					<label for="login" style="font-family: 'Raleway', sans-serif;">Username: </label>
+   					</td>
+   					<td align="left">
+    					<input type="text" id="login" name="login">
+   					</td>
+  				</tr>
+  				<tr>
+   					<td>
+    					<label for="pass" style="font-family: 'Raleway', sans-serif;">Senha: </label>
+   					</td>
+   					<td align="left">
+    					<input type="password" id="senhac" name="senhac">
+   					</td>
+  				</tr>
+  				<tr>
+   					<td>
+    					<label for="passconfirm" style="font-family: 'Raleway', sans-serif;">Confirme a senha: </label>
+   					</td>
+   					<td align="left">
+    					<input type="password" id="senha2" name="senha2">
+   					</td>
+  				</tr>
+			</tr>
+		</table>				
+				<ul>
+					<li>	
+						<input type="submit" name="Cadastro" class="btn bigger" title="Cadastro">			
+						<a href="file:///home/aluno/uatapedy/Uatapedy.html" style="font-family: 'Raleway', sans-serif;" class="btn bigger" >Cadastro</a>	
+					</li>
+				</ul>			
+				</form>
+			</div>			
 				
-				<img class="img1" src="gato.jpg"/>
-				<img class="img2" src="bone.jpg"/>
-				<img class="img3" src="quarto.jpg"/>
-				<img class="img4" src="livros.jpg"/>
-				<img class="img5" src="abobora.jpg"/>
-				<img class="img6" src="maquiagem.jpg"/>
     	</div>
-		<a href="http://facebook.com/"><img src="face.svg" width="30em" height="30em" id="face"/></a>
-		<a href="http://spotify.com/"><img src="spotify.svg" width="30em" height="30em" id="spoti"/></a>
-		<a href="http://twitter.com/"><img src="twitter.svg" width="30em" height="30em" id="tw"/></a>
-		<a href="http://tumblr.com/"><img src="tumblr.svg" width="30em" height="30em" id="tum"/></a>
-		<a href="file:///home/aluno/uatapedy/paginahome.html"/><img src="exit.png" width="30em" height="30em" id="exit"/></a>
+			
 	</body>
 </html>
+
