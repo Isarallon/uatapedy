@@ -17,7 +17,8 @@
 	        $row = $result->fetch_row();
 	        if ($row[0] == null || $row[0] == "") {
 	            //Query que realiza a inserção dos dados no banco de dados na tabela indicada acima
-	    	    $query = "INSERT INTO usuario (us_email, us_senha, us_nome, us_user, us_admin) VALUES (\"$email\", \"$senha\", \"$nome\", \"$login\", NULL)";
+	    	    $query = "INSERT INTO usuario (us_email, us_senha, us_nome, us_user) VALUES (\"$email\", \"$senha\", \"$nome\", \"$login\")";
+	    	    echo $query;
 
 	    	    if($result = mysqli_query($conexao,$query))
 	    	        echo "Seu cadastro foi realizado com sucesso!"; //TODO: direcionar p pag de Cadastro realizado com sucesso
@@ -32,5 +33,5 @@
 	    $result->close();
 	    mysqli_close($conexao);
 
- 	}
+ 	
 ?>

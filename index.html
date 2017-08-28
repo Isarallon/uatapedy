@@ -3,11 +3,8 @@
 	<head>
 		<title>Duchy</title>
 
-		
-		<meta name="description" content="Aprenda a criar um site completo que usa formulários em HTML">
  		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="paginahome.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
 		
 	</head>
 	<body>
@@ -17,7 +14,7 @@
 			<p class="especial">Crie historias e compartilhe-as com o mundo, liberte sua <span style="color: #FF1493">criatividade</span>!</p>		 
 			<div class="login">
 				<img src="perfil.png" width="75em" height="75em" id="imgperfil"/>				
-				<form action="login.php" method="post">
+				<form id="loginf" action="login.php" method="post">
 				<table id="login4">					
 					<tr>
    						<td>
@@ -38,21 +35,21 @@
 				</table>
 					<ul>
 						<li>				
-							<input type="submit" name="Login" class="btn bigger">
-							<a href="file:///home/aluno/uatapedy/Uatapedy.html" class="btn bigger"style="font-family: 'Raleway', sans-serif;" >Login</a>	
+							<input type="submit" name="Login" class="btn bigger" title="Login">
+							<!--<a href="file:///home/aluno/uatapedy/Uatapedy.html" class="btn bigger"style="font-family: 'Raleway', sans-serif;" >Login</a> -->
 						</li>
 					</ul>
 				</form>
 			</div>
 
 			<div class="cadastro">
-			<form action="cadastro.php" method="post">
+			<form id="cadastrof" action="cadastro.php" method="post">
 		<table align="center">		
 			<tr>
    				<td>
     				<label for="nome" style="font-family: 'Raleway', sans-serif;">Nome: </label>
    				</td>
-   				<td align="center">
+   				<td align="left">
     				<input type="text" id="nomec" name="nomec">
    				</td>
 				<tr>
@@ -101,7 +98,7 @@
 				<ul>
 					<li>	
 						<input type="submit" name="Cadastro" class="btn bigger" title="Cadastro">			
-						<a href="file:///home/aluno/uatapedy/Uatapedy.html" style="font-family: 'Raleway', sans-serif;" class="btn bigger" >Cadastro</a>	
+						<!--<a href="file:///home/aluno/uatapedy/Uatapedy.html" style="font-family: 'Raleway', sans-serif;" class="btn bigger" >Cadastro</a>-->
 					</li>
 				</ul>			
 				</form>
@@ -111,4 +108,3 @@
 			
 	</body>
 </html>
-

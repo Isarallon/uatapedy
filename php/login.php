@@ -1,17 +1,11 @@
 <?php
-   include("teste.php");
+   include("cadastro.php");
    session_start();
 
  	$user_check = $_SESSION['login_user'];
    
-   $ses_sql = mysqli_query($db,"select email from admin where email = '$user_check' ");
-   
-   $row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
-   
-   $login_session = $row['email'];
-   
    if(!isset($_SESSION['login_user'])){
-      header("location:logado.html");
+      header("location: logado.html");
    }
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -19,9 +13,10 @@
       
       $email = mysqli_real_escape_string($db,$_POST['email']);
       $senha = mysqli_real_escape_string($db,$_POST['senha']); 
-      
-      $sql = "SELECT id FROM admin WHERE username = '$email' and passcode = '$senha'";
-      $result = mysqli_query($db,$sql);
+      $sql = "SELECT us_email FROM usuario WHERE us_email = \"$email\" and us_senha = \"$senha\"";
+echo $sql;
+$conexao = mysqli_connect("localhost","root","root","duchy"); 
+      $result = mysqli_query($conexao,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       $active = $row['active'];
       
@@ -32,9 +27,11 @@
       if($count == 1) {
          session_register("email");
          $_SESSION['login_user'] = $email;
-         
-      }else {
+         header("location: logado.html");
+
+      } else {
          $error = "O seu login está inválido";
+         header("location: erro.html");
       }
    }
 ?>
