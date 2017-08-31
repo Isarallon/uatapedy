@@ -18,38 +18,30 @@
 	
 }
 
-#perfil {
+#logo {
 	margin-right:6.6%;
-}
-
-#chat {
-	margin-right:6.6%;
-}
-
-#biblioteca {
-	margin-right:6.6%;
-}
-
-#ideias {
-	margin-right:6.6%;
-}
-
-#notification {
-	margin-right:6.6%;
-}
-
-#settings {
-	margin-right:6.6%;
-}
-
-#criar {
-	margin-right:6.5%;
+	
 }
 
 #lupa {
-	margin-right:6.5%;
+    margin-right:6.5%;
+    
 }
 
+#biblioteca {
+    margin-right:6.6%;
+    
+}
+
+#criar {
+    margin-right:6.5%;
+    
+}
+
+#settings {
+    margin-right:6.6%;
+    
+}
 
 #topo ul li {
    	display: inline;
@@ -169,4 +161,39 @@ table {
 #exit {
 	margin-top: 1%;
 	margin-left: 46%;
+}
+
+#divBusca{
+  background-color: #FFFFFF;
+  border:solid 2px #FFFFFF;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+  float:right;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#63B8FF;
+}
+
+#divBusca img{
+  float:left;
+  height: 32.3px;
+  width: 32.3px;
 }

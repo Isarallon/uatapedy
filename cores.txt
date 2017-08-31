@@ -1,0 +1,16 @@
+#C1FFC1 s s
+#63B8FF s s s <!--(agradou o olho)-->
+#3A5FCD s s 
+#4682B4 s s s 
+#FA8072 s s
+#CD5C5C s s
+#6A5ACD s s
+#B22222 s s -->
+
+#AB82FF s n
+#C6E2FF n s
+#54FF9F s n
+#7FFFD4 n s
+#BBFFFF n ?
+#836FFF n s
+#ADD8E6 n s

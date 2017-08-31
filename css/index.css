@@ -3,36 +3,31 @@ body {
 	height: 100%;
     background-color: #63B8FF;
 	transition: background-color 2s , color 2s , border-bottom 2s;
-    	transition-timing-function: ease-out;
-	
+    transition-timing-function: ease-out;
 }
+
 div {
 	width: 95%;
 	padding: 2em 3px 2em;
 	background-color: white;
 	height: 100%;
 	-webkit-border-radius: 5px;
-    	-moz-border-radius: 5px;
+    -moz-border-radius: 5px;
    	border-radius: 5px;
-
 }
-
 
 #caixas {
     width: 95%;
 	padding: 2em 3px 2em;
     height: 650px;
 	margin: 0 auto;
-
 	background: white;
 	margin-left: 1.5%;
 	margin-top: 2.5%;
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-
 }
-
 
 p {
 	font-family: 'Raleway', sans-serif;
@@ -40,7 +35,6 @@ p {
 	font-size: 55px;
 	margin-top: 1%;
 	text-align: center; 
-	
 }
 
 p.especial{
@@ -48,7 +42,6 @@ p.especial{
 	color: black;
 	font-size: 25px;
 	margin-top: 2%;
-	
 }
 
 .login {
@@ -59,15 +52,13 @@ p.especial{
 	background-color: #2b9eff;
 	margin-left: 16%;
 	opacity:0.7;
-	
 	margin-top: 3.5%;
 	-webkit-border-radius: 5px;
-    	-moz-border-radius: 5px;
-    	border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 	box-shadow: 10px 10px 5px #888888;
 	transition: background-color 1.0s , color 1.0s , border-bottom 1.0s;
-    	transition-timing-function: ease-out;
-
+    transition-timing-function: ease-out;
 }
 
 .cadastro {
@@ -83,7 +74,7 @@ p.especial{
     border-radius: 5px;
 	box-shadow: 10px 10px 5px #888888;
 	transition: background-color 1.0s , color 1.0s , border-bottom 1.0s;
-    	transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 
 .login ul {
@@ -98,10 +89,8 @@ p.especial{
 
 .login ul li a {
 	display: inline-block;
-	
 	color: white;
 	text-decoration: none;
-	
 	padding: 6%;
 	margin-left: 4%;
 	width: 30%;
@@ -124,7 +113,6 @@ p.especial{
 	list-style:none;
 	margin-left: 15%;
 	margin-top: 5%;
-	
 }
 
 .cadastro ul li{	
@@ -203,9 +191,4 @@ p.especial{
 	border-radius: 25%;
 	margin-top: 8%;
 	margin-left: 40%;
-	
-
 }
-
-
-

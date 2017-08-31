@@ -20,15 +20,15 @@
 	margin-right:6.6%;
 }
 
-#pessoal {
+#biblioteca {
     margin-right:6.6%;
 }
 
-#criar {
+#noti {
     margin-right:6.5%;
 }
 
-#settings {
+#perfil {
     margin-right:6.6%; 
 }
 
@@ -104,87 +104,6 @@ div {
     background:#000;
 
 }
-
-.img1 {
-    width: 25em;
-    height: 25em;
-    padding-left: 2em;
-    padding-right: 1em;
-    padding-top: 0em;
-    padding-bottom: 1.5em;
-	border-radius: 17%;
-	cursor: pointer;
-	transition: 0.3s;
-	
-}
-
-.img2 {
-    width: 25em;
-    height: 25em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0em;
-    padding-bottom: 1.5em;
-	border-radius: 17%;
-	cursor: pointer;
-	transition: 0.3s;	
-}
-
-.img3 {
-    width: 25em;
-    height: 25em;
-    padding-left: 1em;
-    padding-right: 2em;
-    padding-top: 0em;
-    padding-bottom: 1.5em;
-	border-radius: 17%;
-	cursor: pointer;
-	transition: 0.3s;	
-}
-
-.img4 {
-    width: 25em;
-    height: 25em;
-    padding-left: 2em;
-    padding-right: 1em;
-    padding-top: 0em;
-    padding-bottom: 2.5em;
-	border-radius: 17%;
-	cursor: pointer;
-	transition: 0.3s;
-	
-}
-
-.img5 {
-    width: 25em;
-    height: 25em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0em;
-    padding-bottom: 2.5em;
-	border-radius: 17%;
-	cursor: pointer;
-	transition: 0.3s;
-}
-
-.img6 {
-    width: 25em;
-    height: 25em;
-    padding-left: 1em;
-    padding-right: 2em;
-    padding-top: 0em;
-    padding-bottom: 2.5em;
-	border-radius: 17%;
-	cursor: pointer;
-	transition: 0.3s;
-}
-
-.img1:hover {opacity: 0.7;}
-.img2:hover {opacity: 0.7;}
-.img3:hover {opacity: 0.7;}
-.img4:hover {opacity: 0.7;}
-.img5:hover {opacity: 0.7;}
-.img6:hover {opacity: 0.7;}
 
 h1 {
 	text-align: center;
