@@ -15,32 +15,22 @@
 
 #topo ul {
     list-style:none;
-	
 }
 
 #logo {
 	margin-right:6.6%;
-	
-}
-
-#lupa {
-    margin-right:6.5%;
-    
 }
 
 #biblioteca {
     margin-right:6.6%;
-    
 }
 
-#criar {
-    margin-right:6.5%;
-    
+#noti {
+    margin-right:6.5%; 
 }
 
-#settings {
-    margin-right:6.6%;
-    
+#perfil {
+    margin-right:6.6%;    
 }
 
 #topo ul li {
@@ -61,7 +51,6 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-
 }
 
 #topo ul li a:hover {
@@ -162,8 +151,6 @@ p {
 	filter: alpha(opacity=200);
    
 }
-
-
 
 #especial {
 	font: Impact;
